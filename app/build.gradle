@@ -1,23 +1,23 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 16
+    compileSdkVersion 22
     buildToolsVersion "20.0.0"
 
     defaultConfig {
         applicationId "com.cameronpalmer.echo"
         minSdkVersion 10
-        targetSdkVersion 19
+        targetSdkVersion 22
     }
 
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.android.support:support-v4:23.0.1'
 }
