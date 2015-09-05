@@ -1,4 +1,4 @@
-package de.tavendo.autobahn;
+package com.jacmba.wss;
 
 import java.net.URI;
 

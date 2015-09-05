@@ -16,7 +16,7 @@
  *
  ******************************************************************************/
 
-package de.tavendo.autobahn;
+package com.jacmba.wss;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

@@ -16,7 +16,7 @@
  *
  ******************************************************************************/
 
-package de.tavendo.autobahn;
+package com.jacmba.wss;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -29,7 +29,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 import android.util.Pair;
-import de.tavendo.autobahn.WebSocketMessage.WebSocketCloseCode;
+import com.jacmba.wss.WebSocketMessage.WebSocketCloseCode;
 
 /**
  * WebSocket reader, the receiving leg of a WebSockets connection.

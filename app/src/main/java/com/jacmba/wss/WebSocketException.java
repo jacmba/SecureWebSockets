@@ -16,7 +16,7 @@
  *
  ******************************************************************************/
 
-package de.tavendo.autobahn;
+package com.jacmba.wss;
 
 public class WebSocketException extends Exception {
 
